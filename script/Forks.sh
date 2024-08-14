@@ -61,10 +61,13 @@ curl -L -o Tools-repo/Egern/Rules/WeChat.list "https://raw.githubusercontent.com
 curl -L -o Tools-repo/Egern/Rules/ChinaASN.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaASN/ChinaASN.list"
 curl -L -o Tools-repo/Egern/Rules/China.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China_All.list"
 # 广告规则 
+curl -L -o Tools-repo/Egern/Rules/AdBlock.list "https://raw.githubusercontent.com/Auniquesir/AdBlock/X/Rule/AdBlock.list"
 curl -L -o Tools-repo/Egern/Rules/Adrules.list "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
 curl -L -o Tools-repo/Egern/Rules/Antiad.list "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
 # 规则修正
 curl -L -o Tools-repo/Egern/Rules/Direct.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Direct/Direct.list"
+# Speedtest
+curl -L -o Tools-repo/Egern/Rules/Speedtest.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Speedtest/Speedtest.list"
 # 隐私保护
 curl -L -o Tools-repo/Egern/Rules/Hijacking.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Hijacking/Hijacking.list"
 curl -L -o Tools-repo/Egern/Rules/Privacy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Hijacking/Hijacking.list"
@@ -128,10 +131,13 @@ curl -L -o Tools-repo/Egern/Rules/WeChat.yaml "https://raw.githubusercontent.com
 curl -L -o Tools-repo/Egern/Rules/ChinaASN.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaASN/ChinaASN.list"
 curl -L -o Tools-repo/Egern/Rules/China.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China_All.list"
 # 广告规则 
+curl -L -o Tools-repo/Egern/Rules/AdBlock.yaml "https://raw.githubusercontent.com/Auniquesir/AdBlock/X/Rule/AdBlock.list"
 curl -L -o Tools-repo/Egern/Rules/Adrules.yaml "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
 curl -L -o Tools-repo/Egern/Rules/Antiad.yaml "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
 # 规则修正
 curl -L -o Tools-repo/Egern/Rules/Direct.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Direct/Direct.list"
+# Speedtest
+curl -L -o Tools-repo/Egern/Rules/Speedtest.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Speedtest/Speedtest.list"
 # 隐私保护
 curl -L -o Tools-repo/Egern/Rules/Hijacking.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Hijacking/Hijacking.list"
 curl -L -o Tools-repo/Egern/Rules/Privacy.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Hijacking/Hijacking.list"
@@ -194,16 +200,17 @@ curl -L -o Tools-repo/Clash/Rules/WeChat.list "https://raw.githubusercontent.com
 curl -L -o Tools-repo/Clash/Rules/ChinaASN.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaASN/ChinaASN.list"
 curl -L -o Tools-repo/Clash/Rules/China.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.list"
 # 广告规则 
+curl -L -o Tools-repo/Clash/Rules/AdBlock.list "https://raw.githubusercontent.com/Auniquesir/AdBlock/X/Rule/AdBlock.list"
 curl -L -o Tools-repo/Clash/Rules/Adrules.list "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
 curl -L -o Tools-repo/Clash/Rules/Antiad.list "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
 # 规则修正
 curl -L -o Tools-repo/Clash/Rules/Direct.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.list"
+# Speedtest
+curl -L -o Tools-repo/Clash/Rules/Speedtest.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.list"
 # 隐私保护
 curl -L -o Tools-repo/Clash/Rules/Hijacking.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.list"
 curl -L -o Tools-repo/Clash/Rules/Privacy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.list"
 curl -L -o Tools-repo/Clash/Rules/BlockHttpDNS.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BlockHttpDNS/BlockHttpDNS.list"
-
-
 
 #--- Quantumult X ---#
 
@@ -261,11 +268,14 @@ curl -L -o Tools-repo/QuantumultX/Rules/Bilibili.list "https://raw.githubusercon
 curl -L -o Tools-repo/QuantumultX/Rules/WeChat.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/WeChat/WeChat.list"
 curl -L -o Tools-repo/QuantumultX/Rules/ChinaASN.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ChinaASN/ChinaASN.list"
 curl -L -o Tools-repo/QuantumultX/Rules/China.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/China/China.list"
-# 广告规则 
+# 广告规则
+curl -L -o Tools-repo/QuantumultX/Rules/AdBlock.list "https://raw.githubusercontent.com/Auniquesir/AdBlock/X/Rule/AdBlock.list"
 curl -L -o Tools-repo/QuantumultX/Rules/Adrules.list "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
 curl -L -o Tools-repo/QuantumultX/Rules/Antiad.list "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
 # 规则修正
 curl -L -o Tools-repo/QuantumultX/Rules/Direct.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Direct/Direct.list"
+# Speedtest
+curl -L -o Tools-repo/QuantumultX/Rules/Speedtest.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Speedtest/Speedtest.list"
 # 隐私保护
 curl -L -o Tools-repo/QuantumultX/Rules/Hijacking.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Hijacking/Hijacking.list"
 curl -L -o Tools-repo/QuantumultX/Rules/Privacy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Hijacking/Hijacking.list"
@@ -329,10 +339,13 @@ curl -L -o Tools-repo/Loon/Rules/ChinaASN.list "https://raw.githubusercontent.co
 curl -L -o Tools-repo/Loon/Rules/China.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China.list"
 curl -L -o Tools-repo/Loon/Rules/China_Domain.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China_Domain.list"
 # 广告规则 
+curl -L -o Tools-repo/Loon/Rules/AdBlock.list "https://raw.githubusercontent.com/Auniquesir/AdBlock/X/Rule/AdBlock.list"
 curl -L -o Tools-repo/Loon/Rules/Adrules.list "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
 curl -L -o Tools-repo/Loon/Rules/Antiad.list "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
 # 规则修正
 curl -L -o Tools-repo/Loon/Rules/Direct.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Direct/Direct.list"
+# Speedtest
+curl -L -o Tools-repo/Loon/Rules/Speedtest.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Speedtest/Speedtest.list"
 # 隐私保护
 curl -L -o Tools-repo/Loon/Rules/Hijacking.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Hijacking/Hijacking.list"
 curl -L -o Tools-repo/Loon/Rules/Privacy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Hijacking/Hijacking.list"
@@ -395,11 +408,14 @@ curl -L -o Tools-repo/Shadowrocket/Rules/WeChat.list "https://raw.githubusercont
 curl -L -o Tools-repo/Shadowrocket/Rules/ChinaASN.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaASN/ChinaASN.list"
 curl -L -o Tools-repo/Shadowrocket/Rules/China.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list"
 curl -L -o Tools-repo/Shadowrocket/Rules/China_Domain.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list"
-# 广告规则 
+# 广告规则
+curl -L -o Tools-repo/Shadowrocket/Rules/AdBlock.list "https://raw.githubusercontent.com/Auniquesir/AdBlock/X/Rule/AdBlock.list"
 curl -L -o Tools-repo/Shadowrocket/Rules/Adrules.list "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
 curl -L -o Tools-repo/Shadowrocket/Rules/Antiad.list "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
 # 规则修正
 curl -L -o Tools-repo/Shadowrocket/Rules/Direct.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Direct/Direct.list"
+# Speedtest
+curl -L -o Tools-repo/Shadowrocket/Rules/Speedtest.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Speedtest/Speedtest.list"
 # 隐私保护
 curl -L -o Tools-repo/Shadowrocket/Rules/Hijacking.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Hijacking/Hijacking.list"
 curl -L -o Tools-repo/Shadowrocket/Rules/Privacy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Hijacking/Hijacking.list"
@@ -463,11 +479,14 @@ curl -L -o Tools-repo/Stash/Rules/Bilibili.yaml "https://raw.githubusercontent.c
 curl -L -o Tools-repo/Stash/Rules/WeChat.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.list"
 curl -L -o Tools-repo/Stash/Rules/ChinaASN.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaASN/ChinaASN.list"
 curl -L -o Tools-repo/Stash/Rules/China.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.list"
-# 广告规则 
+# 广告规则
+curl -L -o Tools-repo/Stash/Rules/AdBlock.yaml "https://raw.githubusercontent.com/Auniquesir/AdBlock/X/Rule/AdBlock.list"
 curl -L -o Tools-repo/Stash/Rules/Adrules.yaml "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
 curl -L -o Tools-repo/Stash/Rules/Antiad.yaml "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
 # 规则修正
 curl -L -o Tools-repo/Stash/Rules/Direct.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.list"
+# Speedtest
+curl -L -o Tools-repo/Stash/Rules/Speedtest.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.list"
 # 隐私保护
 curl -L -o Tools-repo/Stash/Rules/Hijacking.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.list"
 curl -L -o Tools-repo/Stash/Rules/Privacy.yaml "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.list"
@@ -529,11 +548,14 @@ curl -L -o Tools-repo/Stash/Rules/Bilibili.list "https://raw.githubusercontent.c
 curl -L -o Tools-repo/Stash/Rules/WeChat.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.list"
 curl -L -o Tools-repo/Stash/Rules/ChinaASN.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaASN/ChinaASN.list"
 curl -L -o Tools-repo/Stash/Rules/China.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.list"
-# 广告规则 
+# 广告规则
+curl -L -o Tools-repo/Stash/Rules/AdBlock.list "https://raw.githubusercontent.com/Auniquesir/AdBlock/X/Rule/AdBlock.list"
 curl -L -o Tools-repo/Stash/Rules/Adrules.list "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
 curl -L -o Tools-repo/Stash/Rules/Antiad.list "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
 # 规则修正
 curl -L -o Tools-repo/Stash/Rules/Direct.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.list"
+# Speedtest
+curl -L -o Tools-repo/Stash/Rules/Speedtest.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.list"
 # 隐私保护
 curl -L -o Tools-repo/Stash/Rules/Hijacking.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.list"
 curl -L -o Tools-repo/Stash/Rules/Privacy.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking/Hijacking.list"
@@ -546,17 +568,4 @@ curl -L -o Tools-repo/GeoIP/CNIP/CN_Country.mmdb "https://raw.githubusercontent.
 curl -L -o Tools-repo/GeoIP/CNIP/CN_Country.txt "https://raw.githubusercontent.com/Masaiki/GeoIP2-CN/release/CN-ip-cidr.txt"
 curl -L -o Tools-repo/GeoIP/CNIP/Global_Country.mmdb "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
 
-mkdir -p Tool-repo/GeoIP/ASN
-curl -L -o Tools-repo/GeoIP/ASN/GeoASN.mmdb "https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-ASN.mmdb"
-curl -L -o Tools-repo/GeoIP/ASN/GeoCity.mmdb "https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-City.mmdb"
-curl -L -o Tools-repo/GeoIP/ASN/Country.mmdb "https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-Country.mmdb"
-
-
-
 #--- AdBlock ---#
-curl -L -o Tools-repo/AdBlock/Rules/AdBlock.list "https://raw.githubusercontent.com/Auniquesir/AdBlock/X/Rule/AdBlock.list"
-curl -L -o Tools-repo/AdBlock/Rules/AdBlock.yaml "https://raw.githubusercontent.com/Auniquesir/AdBlock/X/Rule/AdBlock.yaml"
-curl -L -o Tools-repo/AdBlock/Rules/AdBlockQX.list "https://raw.githubusercontent.com/Auniquesir/AdBlock/X/Rule/AdBlockQX.list"
-curl -L -o Tools-repo/AdBlock/Rules/Antiad.list "https://raw.githubusercontent.com/Auniquesir/AdBlock/X/Rule/Antiad.list"
-curl -L -o Tools-repo/AdBlock/Rules/Antiad.yam "https://raw.githubusercontent.com/Auniquesir/AdBlock/X/Rule/Antiad.yaml"
-curl -L -o Tools-repo/AdBlock/Rules/AdRules.list "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
